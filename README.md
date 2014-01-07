@@ -22,35 +22,37 @@ To execute PhantomIIS from the command line:
 
     phantomiis
 
-### --iisexpress=VALUE, -i
+### Options
+
+    --iisexpress=VALUE, -i
 
 The path to `iisexpress.exe`. This is usually `C:\Program Files\IIS Express\iisexpress.exe` or `C:\Program Files (x86)\IIS Express\iisexpress.exe`. If you do not specify this flag, PhatomIIS will search your PATH.
 
-### --phantomjs=VALUE, -j
+    --phantomjs=VALUE, -j
 
 The path to `phantomjs.exe`. If you do not specify this flag, PhatomIIS will search your PATH environment variable.
 
-### --phantomconfig=VALUE, -jc
+    --phantomconfig=VALUE, -jc
 
 The path to the PhantomJS JSON Configuration file. This configuration file is passed to PhantomJS's `--config` flag, and is used instead of exposing all PhantomJS CLI flags through PhantomIIS. If this flag is not specified, then the default PhantomJS configuration is used.
 
-### --phantomscript=VALUE, -js
+    --phantomscript=VALUE, -js
 
 The path to the PhantomJS execution script. Default: `.\phantom.run.js`.
 
-### --siteroot=VALUE, -s
+    --siteroot=VALUE, -s
 
 The path to the root of your ASP.NET Web Site. Default: `.\`
 
-### --port=VALUE, -p
+    --port=VALUE, -p
 
 The port to assign to your ASP.NET Web Site. Default: 3000
 
-### --help, -h, -?
+    --help, -h, -?
 
 Display help text
 
-### --version, -V
+    --version, -V
 
 Display the current version of PhantomIIS
 
