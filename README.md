@@ -14,7 +14,7 @@ fully configure an IIS site.
 
 ## Install
 
-PhantomIIS will be available for download soon. Stay tuned. In the mean time, clone the repository and compile.
+Download the latest version from the [Releases](https://github.com/aranasoft/PhantomIIS/releases) page.
 
 ## Usage
 
