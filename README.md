@@ -12,6 +12,10 @@ JavaScript tests using the ASP.NET bundler. By executing under IIS Express, Phan
 access to the ASP.NET site, and it's pages, scripts, and bundles, without the developer having to
 fully configure an IIS site.
 
+## What does it do?
+
+Configuring IIS can be a pain, especially in Development or Continuous Integration scenarios where the physical directory can change from test run to test run. PhantomIIS will spin up a new instance of IIS Express, using the directory and port you specify, execute PhantomJS, and then gracefully shut down IIS Express. There is no need to worry about App Domains, physical directories, and proper IIS configurations.
+
 ## Install
 
 Download the latest version from the [Releases](https://github.com/aranasoft/PhantomIIS/releases) page.
