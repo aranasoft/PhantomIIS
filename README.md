@@ -1,6 +1,6 @@
 # Phantom IIS
 
-[PhantomIIS](http://github.com/jayharris/phantomiis) is utility for executing
+[PhantomIIS](http://github.com/jayharris/phantomiis) is a utility for executing
 [PhantomJS](http://phantomjs.org/) within the context of an IIS Express web server.
 
 ## Why?
